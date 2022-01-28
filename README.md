@@ -22,6 +22,9 @@ https://github.com/gomitolof
 
 If you have problem with the scapy tool installation look at the Documentation [here](https://scapy.readthedocs.io/en/latest/installation.html).
 
+# Example
+`sudo python3 script.py --attackCODE 1 --dstIP 192.168.245.146 --dstPORT 80 --numPCK 100000`
+
 # Attacks CLI
 
 **1: SYN Flood**  
