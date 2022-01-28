@@ -20,33 +20,33 @@ If you have problem with the scapy tool installation look at the Documentation [
 
 # Attacks CLI
 
-1: SYN Flood
-    --dstIP
-    --dstPORT
-    --numPCK
-    [--srcIP]
+1: SYN Flood  
+    --dstIP  
+    --dstPORT  
+    --numPCK  
+    [--srcIP]  
 
-2: ICMP Flood
-    --dstIP
-    --srcIP
-    --numPCK
+2: ICMP Flood  
+    --dstIP  
+    --srcIP  
+    --numPCK  
 
-3: UDP Flood
-    --dstIP
-    --srcIP
-    --dstPORT
-    --numPCK
+3: UDP Flood  
+    --dstIP  
+    --srcIP  
+    --dstPORT  
+    --numPCK  
 
-4: OS Discovery 
-    --dstIP
+4: OS Discovery   
+    --dstIP  
 
-5: ARP spoofing 
-    --victimIP
-    [--victimMAC]
-    --spoofedIP
-    [--spoofedMAC]
-    --interface
-    --numPCK
+5: ARP spoofing  
+    --victimIP  
+    [--victimMAC]  
+    --spoofedIP  
+    [--spoofedMAC]  
+    --interface  
+    --numPCK  
 
 6: Drop Communication
     --victimIP
