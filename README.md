@@ -1,6 +1,8 @@
 # Scapy-Tool-NegroniSecurityTeam
 
-Our Team developed this tool for knowladge purpose.
+Our Team developed this tool for knowladge purpose.  
+https://github.com/matteodalgrande  
+https://github.com/gomitolof  
 
 # Installation
 
