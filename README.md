@@ -20,27 +20,27 @@ If you have problem with the scapy tool installation look at the Documentation [
 
 # Attacks CLI
 
-1: SYN Flood  
+**1: SYN Flood**  
     --dstIP  
     --dstPORT  
     --numPCK  
     [--srcIP]  
 
-2: ICMP Flood  
+**2: ICMP Flood**  
     --dstIP  
     --srcIP  
     --numPCK  
 
-3: UDP Flood  
+**3: UDP Flood**  
     --dstIP  
     --srcIP  
     --dstPORT  
     --numPCK  
 
-4: OS Discovery   
+**4: OS Discovery**   
     --dstIP  
 
-5: ARP spoofing  
+**5: ARP spoofing**  
     --victimIP  
     [--victimMAC]  
     --spoofedIP  
@@ -48,88 +48,88 @@ If you have problem with the scapy tool installation look at the Documentation [
     --interface  
     --numPCK  
 
-6: Drop Communication
-    --victimIP
-    --srcIP
+**6: Drop Communication**  
+    --victimIP  
+    --srcIP  
     --numPCK 
-    --sleep
+    --sleep  
 
-7: ICMP Redirect 
-    --victimIP
-    --serverIP
-    --routerIP
-    --gatewayIP
+**7: ICMP Redirect**  
+    --victimIP  
+    --serverIP  
+    --routerIP  
+    --gatewayIP  
 
-8: TCP Connect Scan
-    --dstIP
-    --pSCAN 
-    [--sleep]
+**8: TCP Connect Scan**  
+    --dstIP  
+    --pSCAN  
+    [--sleep]  
 
-9: TCP Stealth Scan ~ This technique is used to avoid port scanning detection by firewalls.
-    --dstIP
-    --pSCAN
-    [--sleep]
+**9: TCP Stealth Scan** ~ This technique is used to avoid port scanning detection by firewalls.  
+    --dstIP  
+    --pSCAN  
+    [--sleep]  
 
-10: XMAS Scan
-    --dstIP
-    --pSCAN
-    [--sleep]
+**10: XMAS Scan**  
+    --dstIP  
+    --pSCAN  
+    [--sleep]  
 
-11: FIN Scan
-    --dstIP
-    --pSCAN
-    [--sleep]
+**11: FIN Scan**  
+    --dstIP  
+    --pSCAN  
+    [--sleep]  
 
-12: NULL Scan
-    --dstIP
-    --pSCAN
-    [--sleep]
+**12: NULL Scan**  
+    --dstIP  
+    --pSCAN  
+    [--sleep]  
 
-13: TCP ACK FLAG Scan ~ Statefull Firewall or not?
-    --dstIP
-    --pSCAN
-    [--sleep]
+**13: TCP ACK FLAG Scan** ~ Statefull Firewall or not?  
+    --dstIP  
+    --pSCAN  
+    [--sleep]  
 
-14: TCP WINDOW Scan
-    --dstIP
-    --pSCAN
-    [--sleep]
+**14: TCP WINDOW Scan**  
+    --dstIP  
+    --pSCAN  
+    [--sleep]  
 
-15: UDP Scan
-    --dstIP
-    --pSCAN
-    [--sleep]
+**15: UDP Scan**  
+    --dstIP  
+    --pSCAN  
+    [--sleep]  
 
-16: ARP Scan    
-    --dstIP: An IP address or IP address range to scan. For example:
-        - 192.168.1.1 to scan a single IP address
-        - 192.168.1.1/24 to scan a range of IP addresses.
+**16: ARP Scan**      
+    --dstIP: An IP address or IP address range to scan. For example:  
+        - 192.168.1.1 to scan a single IP address  
+        - 192.168.1.1/24 to scan a range of IP addresses.  
 
-17: ARP spoofing RANDOM IP AND MAC
-    --victimIP
-    [--victimMAC]
-    --interface
-    --numPCK
+**17: ARP spoofing RANDOM IP AND MAC**  
+    --victimIP  
+    [--victimMAC]  
+    --interface  
+    --numPCK  
 
-18: HTTP flooding
-    --url 
-    --numPCK
+**18: HTTP flooding**  
+    --url  
+    --numPCK  
 
-19: SSH reset
-    --host1
-    --host2 
-    --dstPORT 
-    --interface
+**19: SSH reset**  
+    --host1  
+    --host2   
+    --dstPORT  
+    --interface  
 
-20: telnet reset
-    --host1
-    --host2 
-    --dstPORT (23)
-    --interface
+**20: telnet reset**  
+    --host1  
+    --host2  
+    --dstPORT (23)  
+    --interface  
 
-21: TCP Session Hijacking Reverse Shell
-    --interface 
-    --dstPORT (23 telnet)\n
+**21: TCP Session Hijacking Reverse Shell**  
+    --interface  
+    --dstPORT (23 telnet)  
 
-22: sniffer ICMP exfiltration
-    --interface
+**22: sniffer ICMP exfiltration**  
+    --interface  
