@@ -6,6 +6,11 @@ https://github.com/gomitolof
 
 # Installation
 
+`chmod 755 install.sh`
+`./install.sh`
+
+or 
+
 `sudo apt update`
 
 `sudo apt install python3`
@@ -14,7 +19,7 @@ https://github.com/gomitolof
 
 `sudo apt install nmap`
 
-`sudo pyhton3 -m pip3 install python-nmap`
+`sudo pyhton3 -m pip3 install python3-nmap`
 
 `sudo python3 -m pip3 install --pre scapy[basic]`
 
