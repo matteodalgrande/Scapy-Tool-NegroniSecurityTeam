@@ -7,6 +7,7 @@ https://github.com/gomitolof
 # Installation
 
 `chmod 755 install.sh`
+
 `./install.sh`
 
 or 
